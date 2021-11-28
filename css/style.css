@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.container-login {
+  width: 100%;
+  height: 47.5rem;
+}
+header {
+  margin-bottom: 1rem;
+}
+/* navbar */
+/* logo */
+nav > a#logo {
+  font-weight: bold;
+}
+/* navmenu */
+.navbar-nav > a {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+#btn-daftar {
+  border: 1px #feb546 solid;
+  background-color: white;
+  text-align: center;
+  border-radius: 10%;
+}
+/* content */
+.content {
+  margin: 7rem 0;
+  display: flex;
+  align-items: center;
+}
+/* content login */
+.login-content {
+  padding: 2rem;
+  width: 60vh;
+}
+/* .regis-content {
+  height: 50vh;
+} */
+.login-content > h3 {
+  text-align: center;
+}
+.login-content > form > .other {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+}
+.other > label {
+  margin-bottom: 1rem;
+}
+.other > label > a {
+  border: 1px #feb546 solid;
+  border-radius: 10%;
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+}
+.form-login {
+  width: 100%;
+}
+span#subtitle {
+  font-size: 12px;
+  font-weight: 300;
+}
+.other > label > a:hover {
+  border: 1px black solid;
+  background-color: #feb546;
+  transition: 1s;
+}
+/* user-content */
+.user-page {
+  width: 100%;
+  height: 100vh;
+}
+#row-user {
+  width: 100%;
+  height: 100%;
+}
+#right-side > h3 {
+  font-weight: 800;
+}
+.user-page > #row-user > #left-side > nav > a {
+  color: white;
+}
+.user-page > #row-user > #left-side > nav > a#logo {
+  text-align: center;
+}
+/* footer */
+footer {
+  padding: 2.4rem 0;
+  background-color: #feb546;
+}
+footer > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* bg */
